@@ -50,6 +50,29 @@ CODESYS PLC Simulation
 
 ---
 
+## Documentation
+
+The repository includes editable and exported system documentation:
+
+### Architecture Diagram
+
+Illustrates the overall system structure, including PLC control, Node-RED monitoring, MQTT communication, and operator interaction.
+
+Files:
+
+* docs/Architecture_Diagram.png
+* docs/Architecture_Diagram.drawio
+
+### Workflow Diagram
+
+Illustrates the operational sequence from system start-up through object detection, sorting, and monitoring.
+
+Files:
+
+* docs/Workflow_Diagram.png
+* docs/Workflow_Diagram.drawio
+
+
 ## System Workflow
 
 1. Operator starts the production system.
@@ -98,6 +121,12 @@ Smart-Factory-Sorting-and-Monitoring-System
 ├── codesys
 │   └── SmartFactorySorting.projectarchive
 
+├── docs
+│   ├── Architecture_Diagram.png
+│   ├── Architecture_Diagram.drawio
+│   ├── Workflow_Diagram.png
+│   └── Workflow_Diagram.drawio
+
 ├── node-red
 │   └── flow.json
 
@@ -120,7 +149,17 @@ Smart-Factory-Sorting-and-Monitoring-System
 
 ## Demonstration
 
+### Architecture Diagram
+
+![Architecture Diagram](docs/Architecture_Diagram.png)
+
+### Workflow Diagram
+
+![Workflow Diagram](docs/Workflow_Diagram.png)
+
 ### CODESYS PLC Demonstration
+Located in:
+- videos/01_Codesys_PLC_Demo.mp4
 
 The PLC demonstration shows:
 
@@ -132,6 +171,8 @@ The PLC demonstration shows:
 * Real-time PLC simulation
 
 ### Node-RED & MQTT Demonstration
+Located in:
+- videos/02_NodeRED_MQTT_Dashboard_Demo.mp4
 
 The dashboard demonstration shows:
 
@@ -163,7 +204,17 @@ The dashboard demonstration shows:
 
 ![PLC Runtime](screenshots/Codesys_Runtime.png)
 ---
+
  
+ ## Project Outcomes
+
+- Successfully developed a PLC-based sorting system using CODESYS.
+- Implemented sensor-driven automation logic.
+- Created a real-time monitoring dashboard using Node-RED.
+- Demonstrated MQTT-based event updates and dashboard interaction.
+- Applied Industry 4.0 and smart manufacturing concepts in a simulated production environment.
+
+
 ## Skills Demonstrated
 
 * PLC Programming
@@ -180,6 +231,10 @@ The dashboard demonstration shows:
 * Event-Driven Architecture
 * Troubleshooting and Testing
 * Automation Project Development
+* Technical Documentation
+* System Design
+* Workflow Modeling
+* Draw.io
 
 ---
 
