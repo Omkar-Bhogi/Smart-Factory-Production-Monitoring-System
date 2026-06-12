@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="NJWLz0pP_1x308qLoy_P">
+    <mxGraphModel dx="1220" dy="1032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RaD7FsYFXjSXLggN1abd-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CODESYS PLC&lt;div&gt;Sensor Inputs&lt;div&gt;Conveyor Control&lt;div&gt;Sorting Logic&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="339" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RaD7FsYFXjSXLggN1abd-14" edge="1" parent="1" source="RaD7FsYFXjSXLggN1abd-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="RaD7FsYFXjSXLggN1abd-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaD7FsYFXjSXLggN1abd-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MQTT Broker" vertex="1">
+          <mxGeometry height="80" width="160" x="339" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="RaD7FsYFXjSXLggN1abd-15" edge="1" parent="1" source="RaD7FsYFXjSXLggN1abd-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="RaD7FsYFXjSXLggN1abd-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaD7FsYFXjSXLggN1abd-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Node-RED&lt;br&gt;Data Processing" vertex="1">
+          <mxGeometry height="80" width="160" x="339" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="RaD7FsYFXjSXLggN1abd-10" edge="1" parent="1" source="RaD7FsYFXjSXLggN1abd-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="RaD7FsYFXjSXLggN1abd-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaD7FsYFXjSXLggN1abd-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Real-Time Dashboard&lt;div&gt;Monitoring&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="339" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="RaD7FsYFXjSXLggN1abd-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Operator" vertex="1">
+          <mxGeometry height="80" width="160" x="339" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="RaD7FsYFXjSXLggN1abd-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="PLC Control System" vertex="1">
+          <mxGeometry height="30" width="160" x="339" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RaD7FsYFXjSXLggN1abd-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Monitoring System" vertex="1">
+          <mxGeometry height="30" width="150" x="343" y="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
